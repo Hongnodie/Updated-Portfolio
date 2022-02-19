@@ -22,3 +22,18 @@ Even if opting out of career services, this is *still a required task*. Part of 
 * Updated resume
 
 * Updated LinkedIn profile
+
+### Screenshot
+
+The screenshot
+
+![The screenshot](./files/Screenshot.png)
+
+Responsive design
+
+![The responsive design](./files/Responsive.png)
+
+### license
+
+This is licensed under MIT &&
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
