@@ -1,12 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    Zihong Gan | Portfolio
+  </title>
+
+  <meta name="description" content="A structure engineer devoted to make the world a better one">
+  <meta name="keywords" content="Responsive Diligent Civil HTML C++ JAVA NODE.JS CSS" />
+  <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-  
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Org.</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Hongnodie</span>
+        </h1>
+        <p>This is Hong, a buddy who have recently joined the Coding Boot Camp. I am excited to touch this field. I hope to build a strongly-bonded community with the help of technologies. Had you got the same ambition as me, feel free to contact me.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+          <!-- The div contains the work -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Weather Dashboard</h3>
+              <p>
+                An app that retrieve weather data for cities around the world.
+              </p>
+              <ul class="work__list">
+                <li>Sidebar that store search history as an array</li>
+                <li>City name and search history be saved to the local storage</li>
+                <li>invalid input rejection</li>
+                <li>Well tracked coding structure</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hongnodie.github.io/Weather-Dashboard/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Hongnodie/Weather-Dashboard.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://raw.githubusercontent.com/Hongnodie/Weather-Dashboard/main/assets/images/screenshot.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Random-password-Generator</h3>
+              <p>
+                Generate a password to satisfy some optional preferences provided by the user.
+              </p>
+              <ul class="work__list">
+                <li>html</li>
+                <li>css</li>
+                <li>java</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hongnodie.github.io/HW3-Random-password-Generator/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Hongnodie/HW3-Random-password-Generator.git">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://raw.githubusercontent.com/Hongnodie/HW3-Random-password-Generator/main/Assets/Screenshot.png" class="work__image" alt="Random-password-Generator" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Timed Quiz</h3>
+              <p>
+                A timed quiz application with multiple choice questions on JavaScript fundamentals that stores high scores for users to gauge progress compared to peers
+              </p>
+              <ul class="work__list">
+                <li>CSS</li>
+                <li>JAVA</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hongnodie.github.io/Time-Based-Code-Quiz/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Hongnodie/Time-Based-Code-Quiz.git">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://raw.githubusercontent.com/Hongnodie/Time-Based-Code-Quiz/main/assets/images/StartGame.png" class="work__image" alt="Simularted Stargazing Environment demo" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Stargazing for astronomers(Teamwork)</h3>
+              <p>
+                Use weather and solar system server-side apis to access and display planet positions for star gazing.
+              </p>
+              <ul class="work__list">
+                <li>Tailwind css framework</li>
+                <li>Js libraries</li>
+                <li>Server Side API’s</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://jacksonmorristhring.github.io/simulartedStargazingEnvironment/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/jacksonMorrisThring/simulartedStargazingEnvironment.git">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./files/stargazing-demo.gif" class="work__image" alt="Simularted Stargazing Environment demo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Organizations & ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Organizations</h2>
+        <div class="client__logos">
+          <img src="./images/unisa.png" class="client__logo" alt="Company 2" />
+          <img src="./images/SCUT.jpg" class="client__logo" alt="Company 3" />
+          <img src="./images/unimelb.svg" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
+              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
+              in vel, ex quam quidem quos mollitia labore aut sunt eius
+              ratione molestiae fuga veniam facere similique voluptate.
+            </p>
+            <!-- A link to resume -->
+            <a href="./files/Resume-Zihong Gan.pdf" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./files/portrait.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          I would welcome the opportunity to meet with you and discuss establishing a stronger relationship between our teammembers. Please feel free to contact me to arrange a meeting. I'm looking forward to working with you in the future.
+        </p>
+        <a href="mailto:92ganhong@gmail.com?subject=Mail from Hongnodie Portfolio" class="btn">92ganhong@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/GanHong7" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Hongnodie" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/zihong-gan-56313020a/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2021 - All rights reserved by <a href="https://github.com/Hongnodie?tab=repositories" class="link">Hongnodie</a>.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
 </body>
+
 </html>
