@@ -4,7 +4,7 @@ This is to update personal portfolio page and other materials to build toward be
 
 ### Link
 
-[Open html page](https://hongnodie.github.io/Updated-Portfolio/)
+[Open html page](https://hongnodie.github.io/Updated-Portfolio/index.html)
 
 [See coding files](https://github.com/Hongnodie/Updated-Portfolio.git)
 
