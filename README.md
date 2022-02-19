@@ -35,5 +35,5 @@ Responsive design
 
 ### license
 
-This is licensed under MIT &&
+This is licensed under MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
