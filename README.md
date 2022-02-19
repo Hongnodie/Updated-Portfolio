@@ -1,6 +1,6 @@
 # Updated-Portfolio
 
-This is to update personal portfolio page and other materials to build toward being employer-competitive.
+This is to update personal portfolio page and other materials to build toward being employer-competitive. 
 
 ### Link
 
@@ -32,6 +32,12 @@ The screenshot
 Responsive design
 
 ![The responsive design](./files/Responsive.png)
+
+### Previous page
+
+[previous page](https://hongnodie.github.io/Week2Work/)
+
+[See coding files](https://github.com/Hongnodie/Week2Work.git)
 
 ### license
 
