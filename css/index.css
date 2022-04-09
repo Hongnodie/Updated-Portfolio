@@ -6,14 +6,14 @@
     font-family: 'Hk Grotesk';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+    src: url('../fonts/HKGrotesk-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Jost-Regular.ttf') format('woff');
+    src: url('../fonts/Jost-Regular.ttf') format('woff');
 }
 
 * {
@@ -340,11 +340,18 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: flex-end;
     padding: var(--gutter-normal) 0;
     position: fixed;
+    top: 0; right: 8rem;
 }
 
 .nav__items {
     display: flex;
     list-style: none;
+    background: linear-gradient(rgba(3, 218, 247, 0.452), rgba(0, 0, 0, 0.4));
+    /* height: 8rem; width: 100vw; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 1rem; padding-right: 1rem;
 }
 
 .nav__item:not(:last-child) {
@@ -411,7 +418,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('../images/header.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
