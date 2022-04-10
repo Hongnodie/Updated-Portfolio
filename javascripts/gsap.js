@@ -23,13 +23,13 @@ function indi (targets, type) {
   // Next button
   function slideOneNext() {
     // console.log(count);
-    gsap.fromTo(targets[count], { x: '0' }, { x: '-100%', duration: 1.2 });
+    gsap.fromTo(targets[count], { x: '0' }, { x: '-100%', duration: 1.2, ease: Elastic.easeOut });
     if (count == targets.length -1 ) {
       count = 0;
       } else {
         count = count + 1;
       }   
-    gsap.fromTo(targets[count], { x: '100%' }, { x: '0', delay: 0.4, duration: 1.2 });
+    gsap.fromTo(targets[count], { x: '100%' }, { x: '0', delay: 0.4, duration: 1.2, ease: Power3.easeOut });
     currentId.innerHTML = `( ${count+1} / ${targets.length} )`;
   }
 
@@ -38,7 +38,7 @@ function indi (targets, type) {
   // Previous button
   function slideOnePrev() {
     // console.log(count);
-    gsap.fromTo(targets[count], { x: '0' }, { x: '100%', duration: 1.2 });
+    gsap.fromTo(targets[count], { x: '0' }, { x: '100%', duration: 1.2, ease: Elastic.easeOut });
     if (count < targets.length) {
         if (count > 0) {
           count = count -1;
@@ -46,7 +46,7 @@ function indi (targets, type) {
           count = targets.length -1;
         }   
     }
-    gsap.fromTo(targets[count], { x: '-100%' }, { x: '0', delay: 0.4, duration: 1.2 });
+    gsap.fromTo(targets[count], { x: '-100%' }, { x: '0', delay: 0.4, duration: 1.2, ease: Power3.easeOut });
     currentId.innerText = `( ${count+1} / ${targets.length} )`;
   }
 
