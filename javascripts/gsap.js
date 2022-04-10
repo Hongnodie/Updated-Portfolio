@@ -14,9 +14,9 @@ gsap.set(targets[0], { x: '0' });
 
 // Next button
 function slideOneNext() {
-gsap.fromTo(targets[count], { x: '0'}, { x: '-100%', duration: 1.2 });
+gsap.fromTo(targets[count], { x: '0' }, { x: '-100%', duration: 1.2, zindex: 0 });
 count = count < targets.length - 1 ? ++count : 0;
-gsap.fromTo(targets[count], { x: '100%'}, { x: '0', delay: 0.4, duration: 1.2  });
+gsap.fromTo(targets[count], { x: '100%' }, { x: '0', delay: 0.4, duration: 1.2, zindex: 10  });
 }
 document.getElementById("nextButton").addEventListener("click", function() {
     slideOneNext();
@@ -24,7 +24,7 @@ document.getElementById("nextButton").addEventListener("click", function() {
 
 // Previous button
 function slideOnePrev() {
-  gsap.fromTo(targets[count], { x: '0'}, { x: '100%', duration: 1.2 });
+  gsap.fromTo(targets[count], { x: '0' }, { x: '100%', duration: 1.2, zindex: 0 });
   if (count < targets.length) {
       if (count > 0) {
         --count;
@@ -32,7 +32,7 @@ function slideOnePrev() {
         count = targets.length -1;
       }   
   }
-  gsap.fromTo(targets[count], { x: '-100%'}, { x: '0', delay: 0.4, duration: 1.2  });
+  gsap.fromTo(targets[count], { x: '-100%' }, { x: '0', delay: 0.4, duration: 1.2, zindex: 10  });
 }
 document.getElementById("prevButton").addEventListener("click", function() {
   slideOnePrev();

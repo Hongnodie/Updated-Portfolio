@@ -650,19 +650,37 @@ body:not(.user-is-tabbing) a:focus {
     position: relative;
     margin: 1rem auto;
     overflow: hidden;
+    display: block;
 }
 
 .controls {
-    padding: 0px;
+    position: relative;
+    top: 20rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    height: 40px;
-    min-height: 40px;
+    width: 100%;
+    /* z-index: -1; */
 }
 
 .controls button {
-    margin: 0 8px;
-    padding: 12px 24px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: transparent;
+    opacity: .5;
+    cursor: pointer;
+    width: 15%;
+    border: none;
+    font-size: 10rem;
+    font-weight: 400;
+    /* z-index: 11; */
+}
+
+.controls button:hover {
+    color: var(--pink);
+}
+
+.individual-box {
+    align-items: center;
 }
