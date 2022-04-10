@@ -19,6 +19,7 @@
   <script src="./javascripts/keyboard.js" defer></script>
 
   <link rel="stylesheet" href="./css/index.css" />
+
 </head>
 
 <body>
@@ -55,7 +56,7 @@
     <section class="work" id="work">
       <div class="row">
         <h2>My Work</h2>
-        <div class="work__boxes">
+        <div class="box-container">
           <!-- The div contains the work -->
           <div class="work__box">
             <div class="work__text">
@@ -72,7 +73,7 @@
 
               <div class="work__links">
                 <a href="https://hongnodie.github.io/Weather-Dashboard/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                  Try App <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/Hongnodie/Weather-Dashboard.git" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
@@ -98,7 +99,7 @@
 
               <div class="work__links">
                 <a href="https://hongnodie.github.io/HW3-Random-password-Generator/" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                  Try App <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/Hongnodie/HW3-Random-password-Generator.git">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
@@ -123,7 +124,7 @@
 
               <div class="work__links">
                 <a href="https://hongnodie.github.io/Time-Based-Code-Quiz/" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                  Try App <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/Hongnodie/Time-Based-Code-Quiz.git">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
@@ -148,10 +149,10 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://jacksonmorristhring.github.io/simulartedStargazingEnvironment/" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://jacksonmorristhring.github.io/simulartedStargazingEnvironment/" class="link__text" target="_blank">
+                  Try App <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/jacksonMorrisThring/simulartedStargazingEnvironment.git">
+                <a href="https://github.com/jacksonMorrisThring/simulartedStargazingEnvironment.git" target="_blank">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -160,6 +161,12 @@
               <img src="./files/stargazing-demo.gif" class="work__image" alt="Simularted Stargazing Environment demo" />
             </div>
           </div>
+
+          <div class="controls">
+            <button id="prevButton">&lt;</button>
+            <button id="nextButton">&gt;</button>
+          </div>
+            
         </div>
       </div>
     </section>
@@ -196,7 +203,7 @@
           </div>
 
           <div class="about__photo-container">
-            <img class="about__photo" src="./files/portrait.jpg" alt="" />
+            <img class="about__photo" src="./files/portrait.jpg" alt="My photo" />
           </div>
         </div>
       </div>
@@ -209,7 +216,7 @@
     <div class="row">
       <h2>Get in Touch</h2>
       <div class="contact__info">
-        <p>
+        <p id="contact_message">
           I would welcome the opportunity to meet with you and discuss establishing a stronger relationship between our teammembers. Please feel free to contact me to arrange a meeting. I'm looking forward to working with you in the future.
         </p>
         <a href="mailto:92ganhong@gmail.com?subject=Mail from Hongnodie Portfolio" class="btn">92ganhong@gmail.com</a>
@@ -240,7 +247,7 @@
       </ul>
 
       <p>
-        &copy; 2021 - All rights reserved by <a href="https://github.com/Hongnodie?tab=repositories" class="link">Hongnodie</a>.
+        &copy; 2022 - All rights reserved by <a href="https://github.com/Hongnodie?tab=repositories" class="link">Hongnodie</a>.
       </p>
     </div>
   </footer>
@@ -248,7 +255,7 @@
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
-  
+
 </body>
 
 </html>

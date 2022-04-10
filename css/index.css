@@ -455,7 +455,12 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__box {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    place-items: center;
+    z-index: 0;
+    position: absolute;
+    width: 100%; 
+    height: 100%;
 }
 
 @media(max-width: 900px) {
@@ -554,6 +559,10 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
+.about__photo {
+    height: 40rem;
+}
+
 @media(max-width: 900px) {
     .about__content {
         flex-direction: column-reverse;
@@ -583,6 +592,12 @@ body:not(.user-is-tabbing) a:focus {
 .contact__info {
     max-width: var(--container-medium-width);
 }
+
+#contact_message:hover::after {
+    content: " It's very Nice to meet you here!";
+    font-weight: bold;
+    display:block;
+  }
 
 /* --------------------------------------- */
 /* ----- Footer ----- */
@@ -623,4 +638,31 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+/* --------------------------------------- */
+/* ----- Carousel ----- */
+/* --------------------------------------- */
+
+.box-container {
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    margin: 1rem auto;
+    overflow: hidden;
+}
+
+.controls {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-height: 40px;
+}
+
+.controls button {
+    margin: 0 8px;
+    padding: 12px 24px;
+    position: relative;
 }
