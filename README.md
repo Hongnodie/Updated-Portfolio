@@ -31,7 +31,7 @@ The screenshot
 
 Responsive design
 
-![The responsive design](./files/Responsive.png)
+![The responsive design](./files/Portfolio%20screenshot-2.png)
 
 ### Previous page
 

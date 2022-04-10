@@ -361,16 +361,24 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .nav {
         justify-content: center;
+        position: sticky;
+        top: 0; right: 0;
     }
-}
 
-@media(max-width: 400px) {
+    .nav__items a {
+        width: 80vw;
+        margin: 0;
+    }
+
+    .header__text {
+        position: sticky;
+        top: 15rem;
+    }
+
     .nav__item:not(:last-child) {
-        margin-right: var(--gutter-normal);
+        margin-right: 0px;
     }
-}
 
-@media(max-width: 300px) {
     .nav {
         font-size: var(--font-size-small);
     }
@@ -442,6 +450,12 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .header {
         text-align: center;
+    }
+
+    .header__text {
+        /* position: static; */
+        bottom: 0;
+        padding-top: 3rem;
     }
 
     .header__text p {
@@ -660,7 +674,6 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* z-index: -1; */
 }
 
 .controls button {
@@ -674,7 +687,6 @@ body:not(.user-is-tabbing) a:focus {
     border: none;
     font-size: 10rem;
     font-weight: 400;
-    /* z-index: 11; */
 }
 
 .controls button:hover {
