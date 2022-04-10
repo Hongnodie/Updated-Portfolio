@@ -24,6 +24,9 @@
 
 <body>
   <header class="header" role="banner" id="top">
+
+    <!-- ***** Nav bar ***** -->
+
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
@@ -38,6 +41,9 @@
         </ul>
       </nav>
     </div>
+
+    <!-- ***** Header text ***** -->
+
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
@@ -47,6 +53,7 @@
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
+
   </header>
 
   <main role="main">
@@ -63,8 +70,33 @@
         </div>
 
         <div class="box-container">
-          <!-- The div contains the work -->
-          <div class="indi_box" carouselId = 1>
+          <!-- The div contains the individual work -->
+          <div class="indi_box">
+            <div class="work__text">
+              <h3>Time-Based-Code-Quiz</h3>
+              <p>
+                A timed quiz application with multiple choice questions on JavaScript fundamentals that stores high scores for users to gauge progress compared to peers
+              </p>
+              <ul class="work__list">
+                <li>Css</li>
+                <li>Javascripts</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hongnodie.github.io/Time-Based-Code-Quiz/" class="link__text">
+                  Try App <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Hongnodie/Time-Based-Code-Quiz.git">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://raw.githubusercontent.com/Hongnodie/Time-Based-Code-Quiz/main/assets/images/StartGame.png" class="work__image" alt="Time-Based-Code-Quiz demo" />
+            </div>
+          </div>
+
+          <div class="indi_box">
             <div class="work__text">
               <h3>Weather Dashboard</h3>
               <p>
@@ -87,20 +119,20 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="https://raw.githubusercontent.com/Hongnodie/Weather-Dashboard/main/assets/images/screenshot.png" class="work__image" alt="Project 1" />
+              <img src="https://raw.githubusercontent.com/Hongnodie/Weather-Dashboard/main/assets/images/screenshot.png" class="work__image" alt="Weather Dashboard demo" />
             </div>
           </div>
 
-          <div class="indi_box" carouselId = 2>
+          <div class="indi_box">
             <div class="work__text">
               <h3>Random-password-Generator</h3>
               <p>
                 Generate a password to satisfy some optional preferences provided by the user.
               </p>
               <ul class="work__list">
-                <li>html</li>
-                <li>css</li>
-                <li>java</li>
+                <li>Javascripts</li>
+                <li>Css stylesheet design</li>
+                <li>Html</li>
               </ul>
 
               <div class="work__links">
@@ -113,50 +145,132 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="https://raw.githubusercontent.com/Hongnodie/HW3-Random-password-Generator/main/Assets/Screenshot.png" class="work__image" alt="Random-password-Generator" />
+              <img src="https://raw.githubusercontent.com/Hongnodie/HW3-Random-password-Generator/main/Assets/Screenshot.png" class="work__image" alt="Random-password-Generator screenshot" />
             </div>
           </div>
 
-          <div class="indi_box" carouselId = 3>
+          <div class="indi_box">
             <div class="work__text">
-              <h3>Timed Quiz</h3>
+              <h3>Readmegenerator</h3>
               <p>
-                A timed quiz application with multiple choice questions on JavaScript fundamentals that stores high scores for users to gauge progress compared to peers
+                A command-line application that dynamically generates a professional README.md file from a user's input by using the Inquirer npm package.
               </p>
               <ul class="work__list">
-                <li>CSS</li>
-                <li>JAVA</li>
+                <li>Node.js</li>
+                <li>Javascripts</li>
+                <li>Html</li>
+                <li>Css</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://hongnodie.github.io/Time-Based-Code-Quiz/" class="link__text">
-                  Try App <span>&rarr;</span>
+                <a href="https://github.com/Hongnodie/Readmegenerator.git" class="link__text">
+                  Download and try <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/Hongnodie/Time-Based-Code-Quiz.git">
+                <a href="https://github.com/Hongnodie/Readmegenerator.git">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="https://raw.githubusercontent.com/Hongnodie/Time-Based-Code-Quiz/main/assets/images/StartGame.png" class="work__image" alt="Simularted Stargazing Environment demo" />
+              <img src="https://github.com/Hongnodie/Readmegenerator/blob/main/Images/Promptinstruction.png?raw=true" class="work__image" alt="Readmegenerator screenshot" />
             </div>
           </div>
 
-          <div class="indi_box" carouselId = 4>
+          <div class="indi_box">
+            <div class="work__text">
+              <h3>Team-Profile-Generator</h3>
+              <p>
+                This is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+              </p>
+              <ul class="work__list">
+                <li>SQL model referencing</li>
+                <li>Node.js</li>
+                <li>Javascripts</li>
+                <li>Html & Css</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/Hongnodie/Team-Profile-Generator.git" class="link__text">
+                  Download and try <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Hongnodie/Team-Profile-Generator.git">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://github.com/Hongnodie/Team-Profile-Generator/blob/main/src/Screenshot-10.png?raw=true" class="work__image" alt="Team-Profile-Generator screenshot" />
+            </div>
+          </div>
+
+          <div class="indi_box">
+            <div class="work__text">
+              <h3>Note Taker</h3>
+              <p>
+                Note Taker can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+              </p>
+              <ul class="work__list">
+                <li>NPM Express.js</li>
+                <li>Url Routing and data storage</li>
+                <li>Node.js</li>
+                <li>Html & Css & Javascripts</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://notetakerminiapp.herokuapp.com/" class="link__text">
+                  Open App <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Hongnodie/Note-Taker.git">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://github.com/Hongnodie/Note-Taker/blob/main/db/Display.gif?raw=true" class="work__image" alt="Note Taker screenshot" />
+            </div>
+          </div>
+
+          <div class="indi_box">
+            <div class="work__text">
+              <h3>Employee-Tracker</h3>
+              <p>
+                This is a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+              </p>
+              <ul class="work__list">
+                <li>NPM Inquirer package</li>
+                <li>MySQL and self-referencing models</li>
+                <li>Node.js</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/Hongnodie/Employee-Tracker.git" target="_blank" class="link__text">
+                  Download and Try <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Hongnodie/Employee-Tracker.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://github.com/Hongnodie/Employee-Tracker/blob/main/asset/Employee-Tracker_Screenshot.png?raw=true" class="work__image" alt="Employee-Tracker_Screenshot" />
+            </div>
+          </div>
+
+          <div class="indi_box">
             <div class="work__text">
               <h3>Retail-Shop-Back-End</h3>
               <p>
                 The back end for an e-commerce site. A working Express.js API is coupled with Sequelize to interact with a MySQL database.
               </p>
               <ul class="work__list">
-                <li>Node.js</li>
+                <li>NPM Sequelize package</li>
                 <li>MySQL</li>
-                <li>NPM Sequelize</li>
+                <li>Node.js</li>
               </ul>
 
               <div class="work__links">
                 <a href="https://github.com/Hongnodie/Retail-Shop-Back-End.git" class="link__text" target="_blank">
-                  Try App <span>&rarr;</span>
+                  Download and try <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/Hongnodie/Retail-Shop-Back-End.git" target="_blank">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
@@ -164,7 +278,7 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./files/stargazing-demo.gif" class="work__image" alt="Retail-Shop-Back-End demo" />
+              <img src="https://github.com/Hongnodie/Retail-Shop-Back-End/blob/main/assets/13-orm-homework-demo-02.gif?raw=true" class="work__image" alt="Retail-Shop-Back-End demo" />
             </div>
           </div>
           
@@ -176,13 +290,14 @@
 
         <br><br><br>
 
+        <!-- Team project section -->
         <div class="team-box">
           <h3>Team-Project</h3>
           <h3 id="team-current"></h3>
         </div>
 
         <div class="box-container">
-          <div class="team_box" carouselId = 1>
+          <div class="team_box">
             <div class="work__text">
               <h3>Sport Travel Guider</h3>
               <p>
@@ -190,7 +305,8 @@
               </p>
               <ul class="work__list">
                 <li>Front End</li>
-                <li>Back End</li>
+                <li>Back End (api included)</li>
+                <li>Routing (connecting the above)</li>
               </ul>
 
               <div class="work__links">
@@ -207,7 +323,7 @@
             </div>
           </div>
 
-          <div class="team_box" carouselId = 2>
+          <div class="team_box">
             <div class="work__text">
               <h3>Stargazing for astronomers(Teamwork)</h3>
               <p>
@@ -322,6 +438,8 @@
       </p>
     </div>
   </footer>
+
+  <!-- ***** Helper button -return top ***** -->
 
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
