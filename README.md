@@ -15,19 +15,31 @@ Even if opting out of career services, this is *still a required task*. Part of 
 
 ### Updates
 
-* Updated portfolio featuring Project 1 and two exemplary homework assignments.
+<details>
+<summary>1st to 2nd version</summary>
+> Updated portfolio featuring Project 1 and two exemplary homework assignments.
 
-* Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+> Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
-* Updated resume
+> Updated resume
 
-* Updated LinkedIn profile
+> Updated LinkedIn profile
+</details>
+
+<details>
+<summary>2nd to 3rd version</summary>
+> Add gsap animation.
+
+> Updated GitHub profile with pinned repositories featuring Group Project 2 and 6 other individual assignments.
+
+> Demo swiched to gif in some examples
+</details>
 
 ### Screenshot
 
 The screenshot
 
-![The screenshot](./files/Screenshot.png)
+![The screenshot](./files/Portfolio_demo.gif)
 
 Responsive design
 
@@ -41,5 +53,6 @@ Responsive design
 
 ### license
 
-This is licensed under MIT
+This is licensed under MIT <br>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
