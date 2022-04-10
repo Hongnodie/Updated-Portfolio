@@ -453,7 +453,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
-.work__box, .project__box {
+.indi_box, .team_box {
     display: flex;
     /* align-items: center; */
     place-items: center;
@@ -464,18 +464,18 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 @media(max-width: 900px) {
-    .work__box {
+    .indi_box, .team_box {
         align-items: initial;
         flex-direction: column-reverse;
     }
 }
 
-.work__box:not(:last-child) {
+.indi_box:not(:last-child), .team_box:not(:last-child) {
     margin-bottom: 25rem;
 }
 
 @media(max-width: 500px) {
-    .work__box:not(:last-child) {
+    .indi_box:not(:last-child), .team_box:not(:last-child) {
         margin-bottom: 20rem;
     }
 }
@@ -679,5 +679,13 @@ body:not(.user-is-tabbing) a:focus {
 
 .controls button:hover {
     color: var(--pink);
+}
+
+.individual-box, .team-box {
+    display: flex;
+}
+
+.individual-box h3, .team-box h3 {
+    padding: 1rem;
 }
 
