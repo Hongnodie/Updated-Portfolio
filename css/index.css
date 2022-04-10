@@ -453,7 +453,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
-.work__box {
+.work__box, .project__box {
     display: flex;
     /* align-items: center; */
     place-items: center;
@@ -681,6 +681,3 @@ body:not(.user-is-tabbing) a:focus {
     color: var(--pink);
 }
 
-.individual-box {
-    align-items: center;
-}
